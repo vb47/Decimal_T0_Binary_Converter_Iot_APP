@@ -25,3 +25,7 @@ def result():
         
         b = conv(int(dec))
         return render_template("result.html", binary = b)
+
+
+if __name__ == '__main__':
+    app.run()
